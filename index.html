@@ -4,24 +4,105 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css" type="text/css">
     <title>News Homepage</title>
 </head>
 <body>
-    <div class="header"></div>
-    <div class="container">
-        <div class="hero-banner"></div>
-        <div class="main-header"></div>
-        <div class="main-text"></div>
-        <button class="read-more"></button>
-        <div class="news-box">
-            <div class="news-item"></div>
-            <div class="news-item"></div>
-            <div class="news-item"></div>
+    <div class="mega-box">
+        <div class="header">
+            <div class="logo-icon">
+                <img src="assets/images/logo.svg" alt="logo">
+            </div>
+            <div class="menu">
+                <a href="#">Home</a>
+                <a href="#">New</a>
+                <a href="#">Popular</a>
+                <a href="#">Trending</a>
+                <a href="#">Categories</a>
+            </div>
+            <img src="assets/images/icon-menu.svg" alt="menu" id="menu-icon">
         </div>
-        <div class="article"></div>
-        <div class="article"></div>
-        <div class="article"></div>
+        <div class="container">
+            <div class="left-side">
+                <div class="hero-banner-mobile">
+                    <img src="assets/images/image-web-3-mobile.jpg" alt="hero-mobile">
+                </div>
+                <div class="hero-banner-desktop"><img src="assets/images/image-web-3-desktop.jpg" alt="hero-desktop"></div>
+                <div class="hero-text">
+                    <div class="main-header">
+                        The Bright Future of Web 3.0?
+                    </div>
+                    <div class="main-text">
+                        We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?
+                        <button class="read-more">read more</button>
+                    </div>
+                </div>    
+            </div>
+            <div class="news-box">
+                <p class="new">New</p>
+                <a class="news-item">
+                    <div class="item-header">
+                        Hydrogen VS Electric Cars
+                    </div>
+                    <div class="item-text">
+                        Will hydrogen-fueled cars ever catch up to EVs?
+                    </div>
+                </a>
+                <hr>
+                <a class="news-item">
+                    <div class="item-header">
+                        The Downsides of AI Artistry
+                    </div>
+                    <div class="item-text">
+                        What are the possible adverse effects of on-demand AI image generation?
+                    </div>
+                </a>
+                <hr>
+                <a class="news-item">
+                    <div class="item-header">
+                        Is VC Funding Drying Up?
+                    </div>
+                    <div class="item-text">
+                        Private funding by VC firms is down 50% YOY. We take a look at what that means.
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="footer">
+            <a class="article">
+                <img src="assets/images/image-retro-pcs.jpg" alt="retro-pcs">
+                <div class="article-main">
+                    <div class="number">01</div>
+                    <div class="article-heading">Reviving Retro PCs</div>
+                    <div class="article-text">
+                        What happens when old PCs are given modern upgrades?
+                    </div>
+                </div>
+            </a>
+            <a class="article">
+                <img src="assets/images/image-top-laptops.jpg" alt="toplaptop">
+                <div class="article-main">
+                    <div class="number">02</div>
+                    <div class="article-heading">Top 10 Laptops of 2022</div>
+                    <div class="article-text">
+                        Our best picks for various needs and budgets.
+                    </div>
+                </div>
+            </a>
+            <a class="article">
+                <img src="assets/images/image-gaming-growth.jpg" alt="growth">
+                <div class="article-main">
+                    <div class="number">03</div>
+                    <div class="article-heading">The Growth of Gaming</div>
+                    <div class="article-text">
+                        How the pandemic has sparked fresh opportunities.
+                    </div>
+                </div>
+            </a>
+        </div>
     </div>
 </body>
 </html>
